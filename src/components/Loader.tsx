@@ -11,10 +11,10 @@ export function Loader({ onDone }: { onDone: () => void }) {
           clearInterval(interval);
           return 100;
         }
-        return p + 10;
+        return p + 20;
       });
-    }, 40);
-    const done = setTimeout(() => onDone(), 500);
+    }, 30);
+    const done = setTimeout(() => onDone(), 200);
     return () => {
       clearInterval(interval);
       clearTimeout(done);
@@ -36,7 +36,7 @@ export function Loader({ onDone }: { onDone: () => void }) {
       >
         <div className="absolute inset-0 -m-6 rounded-full bg-gold/20 blur-3xl animate-pulse" />
         <img
-          src="https://res.cloudinary.com/datom4le5/image/upload/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg"
+          src="https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_300/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg"
           alt="RCCG YAYA"
           className="relative h-32 w-32 rounded-full object-cover ring-2 ring-gold/40 sm:h-40 sm:w-40"
         />

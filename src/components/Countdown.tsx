@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
-const TARGET = new Date("2026-03-29T09:00:00").getTime();
+const TARGET = new Date("2026-06-21T09:00:00").getTime();
 
 function diff() {
   const d = Math.max(0, TARGET - Date.now());

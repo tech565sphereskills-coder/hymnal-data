@@ -3,7 +3,7 @@ import { n as require_jsx_runtime, r as require_react } from "../_libs/react+tan
 import { n as toast } from "../_libs/sonner.mjs";
 import { a as AnimatePresence, i as motion, n as useTransform, r as useScroll, t as useSpring } from "../_libs/framer-motion.mjs";
 import { a as Share2, c as Moon, d as Heart, f as Facebook, i as Sun, l as Menu, m as BookOpen, n as X, o as Quote, p as Clock, r as Users, s as Music2, t as Youtube, u as Instagram } from "../_libs/lucide-react.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-CpxBWuzv.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-C9y_bVG9.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function Loader({ onDone }) {
@@ -15,10 +15,10 @@ function Loader({ onDone }) {
 					clearInterval(interval);
 					return 100;
 				}
-				return p + 10;
+				return p + 20;
 			});
-		}, 40);
-		const done = setTimeout(() => onDone(), 500);
+		}, 30);
+		const done = setTimeout(() => onDone(), 200);
 		return () => {
 			clearInterval(interval);
 			clearTimeout(done);
@@ -45,7 +45,7 @@ function Loader({ onDone }) {
 				},
 				className: "relative",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 -m-6 rounded-full bg-gold/20 blur-3xl animate-pulse" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-					src: "https://res.cloudinary.com/datom4le5/image/upload/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg",
+					src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_300/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg",
 					alt: "RCCG YAYA",
 					className: "relative h-32 w-32 rounded-full object-cover ring-2 ring-gold/40 sm:h-40 sm:w-40"
 				})]
@@ -138,7 +138,7 @@ function Nav() {
 						href: "#top",
 						className: "flex items-center gap-2.5 py-2",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-							src: "https://res.cloudinary.com/datom4le5/image/upload/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg",
+							src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_100/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg",
 							alt: "RCCG YAYA Logo",
 							className: "h-9 w-9 rounded-full object-cover ring-1 ring-gold/40"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -327,7 +327,7 @@ function Hero() {
 					scale
 				},
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-					src: "https://res.cloudinary.com/datom4le5/image/upload/v1781522374/tech565/WhatsApp_Image_2026-06-15_at_12.19.00_x9bozj.jpg",
+					src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_1920/v1781522374/tech565/WhatsApp_Image_2026-06-15_at_12.19.00_x9bozj.jpg",
 					alt: "",
 					className: "h-full w-full object-cover"
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-gradient-to-b from-[oklch(0.10_0.03_265)]/40 via-[oklch(0.10_0.03_265)]/55 to-background" })]
@@ -1353,11 +1353,11 @@ function Choir() {
 	const y3 = useTransform(scrollYProgress, [0, 1], [0, -60]);
 	const col1 = [
 		{
-			src: "https://res.cloudinary.com/datom4le5/image/upload/v1781522626/tech565/instru_dcqb31.jpg",
+			src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781522626/tech565/instru_dcqb31.jpg",
 			alt: "Choir in worship"
 		},
 		{
-			src: "https://res.cloudinary.com/datom4le5/image/upload/v1781522658/tech565/WhatsApp_Image_2026-06-15_at_12.21.59fsd_igomth.jpg",
+			src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781522658/tech565/WhatsApp_Image_2026-06-15_at_12.21.59fsd_igomth.jpg",
 			alt: "Choir praise"
 		},
 		{
@@ -1422,10 +1422,10 @@ function Choir() {
 							style: { y: isMobile ? 0 : y2 },
 							className: "grid gap-6 md:gap-8 md:mt-20",
 							children: [{
-								src: "https://res.cloudinary.com/datom4le5/image/upload/v1781522627/tech565/WhatsApp_Image_2026-06-15_at_12.21.59_blnxut.jpg",
+								src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781522627/tech565/WhatsApp_Image_2026-06-15_at_12.21.59_blnxut.jpg",
 								alt: "Choir member singing"
 							}, {
-								src: "https://res.cloudinary.com/datom4le5/image/upload/v1781522374/tech565/WhatsApp_Image_2026-06-15_at_12.19.00_x9bozj.jpg",
+								src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781522374/tech565/WhatsApp_Image_2026-06-15_at_12.19.00_x9bozj.jpg",
 								alt: "Choir rehearsal"
 							}].map((item, idx) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Tile, {
 								src: item.src,
@@ -1436,10 +1436,10 @@ function Choir() {
 							style: { y: isMobile ? 0 : y3 },
 							className: "grid gap-6 md:gap-8",
 							children: [{
-								src: "https://res.cloudinary.com/datom4le5/image/upload/v1781522625/tech565/faf_luvupi.jpg",
+								src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781522625/tech565/faf_luvupi.jpg",
 								alt: "Director leading"
 							}, {
-								src: "https://res.cloudinary.com/datom4le5/image/upload/v1781523851/tech565/WhatsApp_Image_2026-06-15_at_12.21.59fsf_biyy0a.jpg",
+								src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781523851/tech565/WhatsApp_Image_2026-06-15_at_12.21.59fsf_biyy0a.jpg",
 								alt: "Choir voices"
 							}].map((item, idx) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Tile, {
 								src: item.src,
@@ -1507,7 +1507,7 @@ function Tile({ src, alt }) {
 		})]
 	});
 }
-var TARGET = (/* @__PURE__ */ new Date("2026-03-29T09:00:00")).getTime();
+var TARGET = (/* @__PURE__ */ new Date("2026-06-21T09:00:00")).getTime();
 function diff() {
 	const d = Math.max(0, TARGET - Date.now());
 	return {
@@ -1751,7 +1751,7 @@ function Footer() {
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 							className: "mx-auto grid h-14 w-14 place-items-center rounded-full",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-								src: "https://res.cloudinary.com/datom4le5/image/upload/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg",
+								src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_100/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg",
 								alt: "RCCG YAYA Logo",
 								className: "h-9 w-9 rounded-full object-cover ring-1 ring-gold/40"
 							})

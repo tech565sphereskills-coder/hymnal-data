@@ -16,7 +16,7 @@ export function Hero() {
   return (
     <section id="top" ref={ref} className="relative h-[100dvh] min-h-[680px] w-full overflow-hidden">
       <motion.div className="absolute inset-0" style={{ y, scale }}>
-        <img src="https://res.cloudinary.com/datom4le5/image/upload/v1781522374/tech565/WhatsApp_Image_2026-06-15_at_12.19.00_x9bozj.jpg" alt="" className="h-full w-full object-cover" />
+        <img src="https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_1920/v1781522374/tech565/WhatsApp_Image_2026-06-15_at_12.19.00_x9bozj.jpg" alt="" className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-[oklch(0.10_0.03_265)]/40 via-[oklch(0.10_0.03_265)]/55 to-background" />
       </motion.div>
 

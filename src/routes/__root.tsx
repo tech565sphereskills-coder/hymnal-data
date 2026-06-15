@@ -82,7 +82,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary" },
     ],
     links: [
-      { rel: "icon", href: "https://res.cloudinary.com/datom4le5/image/upload/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg" },
+      {
+        rel: "icon",
+        href: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_100/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg",
+      },
+      {
+        rel: "preload",
+        href: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_1920/v1781522374/tech565/WhatsApp_Image_2026-06-15_at_12.19.00_x9bozj.jpg",
+        as: "image",
+      },
+      {
+        rel: "preload",
+        href: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_300/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg",
+        as: "image",
+      },
       { rel: "stylesheet", href: appCss },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },

@@ -2,7 +2,7 @@ import { n as require_jsx_runtime, t as QueryClientProvider } from "../_libs/rea
 import { a as createRouter, c as createFileRoute, f as useRouter, l as createRootRouteWithContext, n as Scripts, o as Outlet, r as HeadContent, s as lazyRouteComponent, u as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as Toaster } from "../_libs/sonner.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-DM1ZcFJy.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-DQqqnWYY.js
 var import_jsx_runtime = require_jsx_runtime();
 var Toaster$1 = ({ ...props }) => {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Toaster, {
@@ -119,7 +119,17 @@ var Route$1 = createRootRouteWithContext()({
 		links: [
 			{
 				rel: "icon",
-				href: "https://res.cloudinary.com/datom4le5/image/upload/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg"
+				href: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_100/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg"
+			},
+			{
+				rel: "preload",
+				href: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_1920/v1781522374/tech565/WhatsApp_Image_2026-06-15_at_12.19.00_x9bozj.jpg",
+				as: "image"
+			},
+			{
+				rel: "preload",
+				href: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_300/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg",
+				as: "image"
 			},
 			{
 				rel: "stylesheet",
@@ -158,7 +168,7 @@ function RootComponent() {
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Toaster$1, {})]
 	});
 }
-var $$splitComponentImporter = () => import("./routes-CpxBWuzv.mjs");
+var $$splitComponentImporter = () => import("./routes-C9y_bVG9.mjs");
 var rootRouteChildren = { IndexRoute: createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "Trailblazer Youth Choir — Hymnody Sunday 2026" },

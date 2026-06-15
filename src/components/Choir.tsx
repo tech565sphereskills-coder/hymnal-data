@@ -20,19 +20,19 @@ export function Choir() {
   const y3 = useTransform(scrollYProgress, [0, 1], [0, -60]);
 
   const col1 = [
-    { src: "https://res.cloudinary.com/datom4le5/image/upload/v1781522626/tech565/instru_dcqb31.jpg", alt: "Choir in worship" },
-    { src: "https://res.cloudinary.com/datom4le5/image/upload/v1781522658/tech565/WhatsApp_Image_2026-06-15_at_12.21.59fsd_igomth.jpg", alt: "Choir praise" },
+    { src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781522626/tech565/instru_dcqb31.jpg", alt: "Choir in worship" },
+    { src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781522658/tech565/WhatsApp_Image_2026-06-15_at_12.21.59fsd_igomth.jpg", alt: "Choir praise" },
     { src: hymnal, alt: "Open hymnal" },
   ];
 
   const col2 = [
-    { src: "https://res.cloudinary.com/datom4le5/image/upload/v1781522627/tech565/WhatsApp_Image_2026-06-15_at_12.21.59_blnxut.jpg", alt: "Choir member singing" },
-    { src: "https://res.cloudinary.com/datom4le5/image/upload/v1781522374/tech565/WhatsApp_Image_2026-06-15_at_12.19.00_x9bozj.jpg", alt: "Choir rehearsal" },
+    { src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781522627/tech565/WhatsApp_Image_2026-06-15_at_12.21.59_blnxut.jpg", alt: "Choir member singing" },
+    { src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781522374/tech565/WhatsApp_Image_2026-06-15_at_12.19.00_x9bozj.jpg", alt: "Choir rehearsal" },
   ];
 
   const col3 = [
-    { src: "https://res.cloudinary.com/datom4le5/image/upload/v1781522625/tech565/faf_luvupi.jpg", alt: "Director leading" },
-    { src: "https://res.cloudinary.com/datom4le5/image/upload/v1781523851/tech565/WhatsApp_Image_2026-06-15_at_12.21.59fsf_biyy0a.jpg", alt: "Choir voices" },
+    { src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781522625/tech565/faf_luvupi.jpg", alt: "Director leading" },
+    { src: "https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_600/v1781523851/tech565/WhatsApp_Image_2026-06-15_at_12.21.59fsf_biyy0a.jpg", alt: "Choir voices" },
   ];
 
   return (

@@ -16,7 +16,7 @@ export function Footer() {
         >
           <div className="mx-auto grid h-14 w-14 place-items-center rounded-full">
             <img 
-              src="https://res.cloudinary.com/datom4le5/image/upload/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg" 
+              src="https://res.cloudinary.com/datom4le5/image/upload/f_auto,q_auto,w_100/v1781520042/tech565/208-2089543_logo-rccg-yaya-logo_xxlccg.jpg" 
               alt="RCCG YAYA Logo" 
               className="h-9 w-9 rounded-full object-cover ring-1 ring-gold/40"
             />
